@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 // call functions here
 function getIt() {
-  $('p').on("click",function() {
+  $('p').click("click",function() {
     console.log("Hey!");
   })
 }
